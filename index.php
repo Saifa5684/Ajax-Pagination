@@ -12,6 +12,7 @@
             <div class="row">
                 <div class="col-md-3"></div>
                 <div class="col-md-5">
+                    <h1 class="text-center">PAGINATION WITH AJAX</h1>
                     <div id="table-data"></div>
                 </div>
                 <div class="col-md-3"></div>

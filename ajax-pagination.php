@@ -14,7 +14,6 @@ $output = '';
 if (mysqli_num_rows($result) > 0) {
     $output .= '
         <table class="table table-striped" style="border:1px solid black">
-        <h1 class="text-center">PAGINATION WITH AJAX</h1>
         <thead>
             <tr>
                 <th scope="col">ID</th>
