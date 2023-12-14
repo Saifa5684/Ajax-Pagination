@@ -1,7 +1,7 @@
 <?php
 ($conn = mysqli_connect("localhost", "root", "password", "demo")) or die("connection failed");
 
-$limitPerPage = 3;
+$limitPerPage = 5;
 $page = isset($_POST['page_no']) ? $_POST['page_no'] : 1;
 
 $offset = ($page - 1) * $limitPerPage;
