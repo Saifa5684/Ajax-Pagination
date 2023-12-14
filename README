@@ -1,0 +1,5 @@
+DATABASE NAME = demo
+TABLE NAME = students
+
+create table demo.students(id int primary key auto_increment, name varchar(255))
+insert into demo.students(name) values("here is the values"); 
